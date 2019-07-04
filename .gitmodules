@@ -1,0 +1,3 @@
+[submodule "themes/brutalaf"]
+	path = themes/brutalaf
+	url = https://github.com/ranfdev/brutalaf.git
