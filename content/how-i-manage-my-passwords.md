@@ -5,11 +5,11 @@ date = 2019-06-30
 
 I can't remember a different password for every website.
 So i decided to use a password manager. Instead of using a password manager that offers
-syncing across devices, i decided to use keepass xc, which stores the password database locally, encrypted.
+syncing across devices, i decided to use [keepass xc](https://keepassxc.org), which stores the password database locally, encrypted.
 While this is secure, i still needed to use the passwords on my phone.
-Fortunately, there is syncthing, a program to sync files across two or more devices, without relying on a central
+Fortunately, there is [syncthing](https://syncthing.net), a program to sync files across two or more devices, without relying on a central
 authority. It is p2p and encrypted, so no one can steal your password database.
-On android i also install the keepass dx (also called keepass deluxe) to view my password database.
+On android i also installed the keepass dx (also called keepass deluxe) app to view my password database.
 
 ### Enabling two factor auth (2FA)
 
@@ -20,7 +20,7 @@ Must read:
 TL;DR for everyone:
 
 2FA is a must have if you want to be secure online. You should keep your time-based one time passwords (TOTP)
-separate from the other normal passwords, or it's useless. SMS verification it's convenient but not secure
+separate from the other normal passwords, else it's useless. SMS verification is convenient but not as secure as TOTP codes
 (but i gueess it's still better than nothing). Also you shouldn't use 2FA recovery codes to login normally,
 but only in the case you have lost access to the TOTP codes.
 
