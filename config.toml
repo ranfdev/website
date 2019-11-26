@@ -14,7 +14,7 @@ build_search_index = false
 generate_rss = true
 
 taxonomies = [
-    {name = "tags", paginate_by = 5, rss = true}
+    {name = "tags", rss = true}
 ]
 
 title = "Ranfdev's lab"
@@ -26,5 +26,6 @@ theme = "brutalaf"
 theme_menu = [
     {name = "About", url = "$BASE_URL/about"},
     {name = "Links", url = "$BASE_URL/links"},
-    {name = "Rss", url = "$BASE_URL/rss.xml"}
+    {name = "Rss", url = "$BASE_URL/rss.xml"},
+    {name = "Tags", url = "$BASE_URL/tags"}
 ]

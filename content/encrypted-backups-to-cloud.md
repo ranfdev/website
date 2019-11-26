@@ -1,6 +1,7 @@
 +++
 title = "Encrypted backups on cloud storage (and locally)"
 date = 2019-07-02
+draft = true
 +++
 There are [different backup solutions][0] you can use on GNU/Linux, but this is what i
 am currently using:

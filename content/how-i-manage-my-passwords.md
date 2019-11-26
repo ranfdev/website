@@ -1,6 +1,9 @@
 +++
 title = "How i manage my passwords"
 date = 2019-06-30
+draft = true
+[taxonomies]
+tags = ["passwords"]
 +++
 
 I can't remember a different password for every website.

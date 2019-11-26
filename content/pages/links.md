@@ -6,13 +6,6 @@ template = "base.html"
 
 # Links i recommend to check out
 
-### games i made
-
-- [connected reactions](https://ranfdev.github.io/connected-reactions/)
-  [source](https://github.com/ranfdev/connected-reactions)
-- [doppietto](https://ranfdev.github.io/doppietto)
-  [source](https://github.com/ranfdev/doppietto)
-
 ### software i use
 
 - [vscode: text editor](https://code.visualstudio.com/)
