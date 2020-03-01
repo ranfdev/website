@@ -66,22 +66,23 @@ to promote his favorite applications and projects.
 ### App listing code
 ```html
 <style>
-.software-recommendations {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
-	gap: 10px;
-	font-size: 1rem
-}
+		.software-recommendations {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+            gap: 10px;
+            font-size: 1rem
+        }
 
-.software-recommendations > * {
-	padding: 10px;
-	background: #f0f0f0;
-	border-radius: 10px;
-	text-decoration: none;
-}
-.software-recommendations * {
-	margin: 0;
-}
+        .recommendation-card {
+            padding: 10px;
+            background: #f0f0f0;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+        .software-recommendations * {
+            margin: 0;
+        }
 </style>
 
 <div class="software-recommendations">
