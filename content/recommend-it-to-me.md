@@ -1,20 +1,15 @@
 +++
-title = "links"
-path = "links"
-template = "base.html"
+title = "Recommend it to me - apps"
+date = 2019-12-10
 +++
-# Websites i recommend to checkout
-- [Drew devault](https://drewdevault.com/): 
-Citing him: "I write software. Occasionally, I will compose a post for this blog."
-Free software developer, creator of sourcehut.
 
-- [Suckless](https://suckless.org/): 
-Home of dwm, dmenu and other quality software with a focus on simplicity, clarity, and frugality.
+I want a world with **less advertising** and more user **recommendations from real people**.
+I think it would be cool if everyone could put something like this in his blog,
+to promote his favorite applications and projects.
 
-- [This week in rust](https://this-week-in-rust.org/): 
-Stay up to date with events, learning resources, and recent developments in Rust community.
 
-# Software i recommend to check out
+## Example App listing
+
 <style>
 		.software-recommendations {
             display: grid;
@@ -65,9 +60,40 @@ Stay up to date with events, learning resources, and recent developments in Rust
 		<h3>Jitsi</h3>
 		<p>P2P calls</p>
 	</a>
-	<a class="recommendation-card" href="https://www.getzola.org/">
-		<h3>Zola</h3>
-		<p>Static site generator</p>
-	</a>
-
+	
 </div>
+
+### App listing code
+```html
+<style>
+.software-recommendations {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+	gap: 10px;
+	font-size: 1rem
+}
+
+.software-recommendations > * {
+	padding: 10px;
+	background: #f0f0f0;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.software-recommendations * {
+	margin: 0;
+}
+</style>
+
+<div class="software-recommendations">
+	<!-- start app item -->
+	<a href="https://joinmastodon.org/">
+		<img loading="lazy" src="https://raw.githubusercontent.com/tootsuite/mastodon/master/public/android-chrome-192x192.png">
+		<h3>Mastodon</h3>
+		<p>Social network</p>
+	</a>
+	<!-- end app item -->
+
+	<!-- just copy the app item here how many times you want -->
+</div>
+
+```
