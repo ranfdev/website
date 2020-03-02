@@ -87,10 +87,10 @@ to promote his favorite applications and projects.
 
 <div class="software-recommendations">
 	<!-- start app item -->
-	<a href="https://joinmastodon.org/">
-		<img loading="lazy" src="https://raw.githubusercontent.com/tootsuite/mastodon/master/public/android-chrome-192x192.png">
-		<h3>Mastodon</h3>
-		<p>Social network</p>
+	<a class="recommendation-card" href="https://joinmastodon.org/">
+	        <img loading="lazy" src="https://raw.githubusercontent.com/tootsuite/mastodon/master/public/android-chrome-192x192.png">
+	        <h3>Mastodon</h3>
+	        <p>Social network</p>
 	</a>
 	<!-- end app item -->
 
